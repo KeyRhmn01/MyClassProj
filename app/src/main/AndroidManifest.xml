@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplicationj" >
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:icon="@drawable/bitcoin"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyBank"
+        android:usesCleartextTraffic="true"
+        >
+        <activity
+            android:name=".activity.ListUser"
+            android:exported="false" />
+
+        <meta-data
+            android:name="DATABASE"
+            android:value="sugar_example.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="false" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.example.myapplicationj.database" />
+
+        <activity
+            android:name=".activity.AccountList"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Creat"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Home"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Info"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Register"
+            android:exported="false" />
+        <activity
+            android:name=".activity.login"
+            android:exported="false" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

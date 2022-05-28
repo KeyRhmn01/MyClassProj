@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Creat"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/creatp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+
+                android:text="Creat an Account"
+                android:textColor="@color/black"
+                android:textSize="@dimen/creats" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/creatum"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Balance-Account"
+            android:textSize="@dimen/creatus"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/creatuets"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/creatueta"
+            android:layout_marginLeft="@dimen/creatuetb"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/creatbalancem"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Balance"
+            android:textSize="@dimen/creatbalances"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/creatbalancets"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/creatbalancema"
+            android:layout_marginLeft="@dimen/creatbalancemb"
+            android:inputType="number"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/creatbpl"
+        android:paddingRight="@dimen/creatbpr"
+        android:layout_marginTop="@dimen/creatbmt"
+        >
+
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/creatcbmr"
+            android:layout_weight="1"
+            android:background="#FF9800"
+            android:text="Cancel"
+            android:textSize="@dimen/creatcbs"
+            android:textColor="@color/black"
+
+            />
+
+        <Button
+            android:id="@+id/apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apply"
+            android:textSize="@dimen/creatabs"
+            android:background="#FF9800"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/creatabml"
+            android:textColor="@color/black"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+
+

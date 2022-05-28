@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectTreeColorHighlighter">
+    <files>
+      <node color="5" path="$PROJECT_DIR$/app/src/main/java/com/example/myapplicationj/activity" />
+      <node color="7" path="$PROJECT_DIR$/app/src/main/java/com/example/myapplicationj/adapter" />
+      <node color="6" path="$PROJECT_DIR$/app/src/main/java/com/example/myapplicationj/database" />
+      <node color="8" path="$PROJECT_DIR$/app/src/main/java/com/example/myapplicationj/model" />
+      <node color="8" path="$PROJECT_DIR$/app/src/main/res/layout/account_row.xml" />
+      <node color="5" path="$PROJECT_DIR$/app/src/main/res/layout/activity_account_list.xml" />
+      <node color="5" path="$PROJECT_DIR$/app/src/main/res/layout/activity_creat.xml" />
+      <node color="5" path="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
+      <node color="5" path="$PROJECT_DIR$/app/src/main/res/layout/activity_info.xml" />
+      <node color="5" path="$PROJECT_DIR$/app/src/main/res/layout/activity_list_user.xml" />
+      <node color="5" path="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+      <node color="5" path="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <node color="5" path="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
+      <node color="8" path="$PROJECT_DIR$/app/src/main/res/layout/user_row.xml" />
+    </files>
+    <colors>
+      <color id="1" value="#4f060d" name="Color 1" enabled="true" />
+      <color id="2" value="#44220e" name="Color 2" enabled="true" />
+      <color id="3" value="#3f371b" name="Color 3" enabled="true" />
+      <color id="4" value="#162c16" name="Color 4" enabled="true" />
+      <color id="5" value="#0f2f47" name="Color 5" enabled="true" />
+      <color id="6" value="#171a34" name="Color 6" enabled="true" />
+      <color id="7" value="#311333" name="Color 7" enabled="true" />
+      <color id="8" value="#1e1e1e" name="Color 8" enabled="true" />
+      <color id="9" value="#ffd200" name="Color 9" enabled="true" />
+    </colors>
+    <option name="marksForCollapsedHighlights" value="Dots" />
+  </component>
+</project>

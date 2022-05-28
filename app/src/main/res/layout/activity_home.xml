@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Home"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/homep"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="HOME"
+                android:textColor="@color/black"
+                android:textSize="@dimen/homes" />
+
+            <ImageView
+                android:id="@+id/menu_icon"
+                android:layout_width="@dimen/homeimagea1"
+                android:layout_height="@dimen/homeimageb1"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_baseline_menu_24" />
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/creat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/homecreatbs"
+                    android:text="Creat an Account"
+                    android:layout_margin="@dimen/homecreatbm"
+                    />
+
+                <Button
+                    android:id="@+id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/homelists"
+                    android:text="Account list"
+                    android:layout_margin="@dimen/homelistm"
+                    />
+
+
+                <Button
+                    android:id="@+id/users"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/homebis"
+                    android:text="User list"
+                    android:layout_margin="@dimen/homebim"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/homebis"
+                    android:text="I"
+                    android:layout_margin="@dimen/homebim"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/homebis"
+                    android:text="I"
+                    android:layout_margin="@dimen/homebim"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/homebis"
+                    android:text="I"
+                    android:layout_margin="@dimen/homebim"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/homebis"
+                    android:text="I"
+                    android:layout_margin="@dimen/homebim"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/homebis"
+                    android:text="I"
+                    android:layout_margin="@dimen/homebim"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/homebis"
+                    android:text="I"
+                    android:layout_margin="@dimen/homebim"
+                    />
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/menu"
+            android:layout_width="@dimen/homedrawera"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FF9800"
+            android:layout_gravity="right"
+            >
+
+
+
+        </LinearLayout>
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
+
+</LinearLayout>
+
+
